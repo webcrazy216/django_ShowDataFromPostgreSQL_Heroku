@@ -25,7 +25,7 @@ SECRET_KEY = 'px3e9dx^-g5%d_=b9191rkbg3j!5mn(w+fppb6gm3t1#hh#(jt'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'djangogetdata.herokuapp.com']
 
 
 # Application definition
